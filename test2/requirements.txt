@@ -1,0 +1,7 @@
+gspread==6.1.2
+google-auth==2.34.0
+google-api-python-client==2.142.0
+pandas==2.2.2
+Flask
+matplotlib
+pydrive

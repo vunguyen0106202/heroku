@@ -1,0 +1,18 @@
+--- đẩy dữ liệu lên heroku
+git init
+heroku create
+git add .
+git commit -m "Initial commit"
+git push heroku master
+--- cập nhập dữ liệu
+git add .
+git commit -m "Update script"
+git push heroku master
+
+--- xem log
+heroku logs --tail
+--- lấy api
+heroku apps:info
+---test api
+curl -X POST https://<app-name>.herokuapp.com/run-code
+
